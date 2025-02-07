@@ -1,4 +1,4 @@
 fecha = input("Porfavor ingrese su fecha de nacimiento con el formato dd/mm/aaaa: ")
-dia = fecha[:fecha.find("/")]
-mes = fecha[:-fecha.find("/")]
-print(mes)
+print('Dia', fecha[:2])
+print('Mes', fecha[3:5])
+print('Año', fecha[6:])

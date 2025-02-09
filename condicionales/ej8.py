@@ -4,10 +4,10 @@ pago = 2400
 
 match(puntuacion):
     case _ if puntuacion == 0.0 and nivelRendimiento == "I":
-        print(f"su ingreso es: ${pago * 0.0}")
-    case _ if puntuacion == 0.0 and nivelRendimiento == "A":
-        print(f"su ingreso es: ${pago * 0.4}")
-    case _ if puntuacion == 0.0 and nivelRendimiento == "M":
-        print(f"su ingreso es: ${pago * 0.6}")
+        print(f"su ingreso es: ${pago + puntuacion}")
+    case _ if puntuacion == 0.4 and nivelRendimiento == "A":
+        print(f"su ingreso es: ${pago * puntuacion}")
+    case _ if puntuacion >= 0.6 and nivelRendimiento == "M":
+        print(f"su ingreso es: ${pago * puntuacion}")
     case _ :
-        print("Tu puntuacion no coincide con tu nivel de rendimiento ingrese el correcto")
+        print("Ingrese los valore correspondientes")

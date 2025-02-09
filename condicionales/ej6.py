@@ -1,7 +1,7 @@
 nombre = input("Ingrese su nombre: ").lower().strip()
 sexo = input("Ingrese su sexo(F/M): ").lower().strip()
 if (nombre[0] < "m" and sexo == "f") or (nombre[0] > "n" and sexo == "m") :
-    print("Eres del Grupo A")
+    print("Eres del Grupo A") 
 else:
     print("Eres del Grupo B")
     

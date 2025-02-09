@@ -1,7 +1,7 @@
 # INPUT:
 # rentaAnual -> float
 
-# OUTPUT :
+# OUTPUT:
 # el tipo impositivo -> porcentaje
 
 rentaAnual = float(input("Ingrese su renta anual: $"))

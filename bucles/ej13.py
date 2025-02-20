@@ -4,5 +4,4 @@ while True:
     palabra = input(" ")
     if palabra == "salir":
         break
-    else:
-        continue
+    

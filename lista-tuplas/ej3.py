@@ -5,4 +5,7 @@ for asignatura in asignaturas:
     nota = float(input(f"ingrese su nota de {asignatura}: "))
     notas[asignatura] = nota
 
-print(notas)
+print("--->Procesando...")
+
+for curso, nota in notas.items():
+    print(f"En {curso} has sacado {nota}")

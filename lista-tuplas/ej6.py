@@ -11,5 +11,6 @@ for curso, nota in notas.items():
     if (nota <= 10):
         cursosJalados.append(curso)
         
+print("--> Procesando...")
 print("Los cursos que tienes que repetir son: ")
 print(*cursosJalados, sep=", " )

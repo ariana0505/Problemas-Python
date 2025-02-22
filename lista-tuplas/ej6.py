@@ -7,10 +7,10 @@ for asignatura in asignaturas:
     notas[asignatura] = nota
 
 
-for curso, nota in notas.items():
+for asignatura, nota in notas.items():
     if (nota <= 10):
-        cursosJalados.append(curso)
+        cursosJalados.append(asignatura)
         
 print("--> Procesando...")
 print("Los cursos que tienes que repetir son: ")
-print(*cursosJalados, sep=", " )
+print(*cursosJalados, sep=", ")

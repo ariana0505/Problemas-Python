@@ -29,4 +29,5 @@ for i in range(len(palabras)):
         palabras[i] = diccionario[palabras[i]]
     else:
         palabras[i] = "Undefined"
+        
 print(" ".join(palabras))

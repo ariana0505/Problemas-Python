@@ -1,7 +1,10 @@
 def factorial(n):
-    resultado = 1
-    for i in range(n):
-        resultado *= i+1 
-    return print(resultado)
+    num = 1
+    resultado  = 0
+    for i in range(1,(n+1)):
+        resultado = num * i
+        num = resultado
+    return resultado    
 
-factorial(24)
+respuesta = factorial(4)
+print(respuesta)

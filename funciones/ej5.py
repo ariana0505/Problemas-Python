@@ -7,5 +7,5 @@ def _volume_of_cylinder(radius:float, height: float):
     area_cicle = area_cicle.split("π")[0]
     volume = area_cicle * height
     return f"Volume is {volume}"
-print(f"{_area_of_circle(3)}")
+
 

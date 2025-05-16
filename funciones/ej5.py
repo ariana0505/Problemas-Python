@@ -1,11 +1,9 @@
-def _area_of_circle(radius:float):
-    area = radius**2
-    return f"{area}π"
+def _area_of_circle(radius: float) -> float:
+    return radius ** 2
 
-def _volume_of_cylinder(radius:float, height: float):
-    area_cicle = _area_of_circle(radius)
-    area_cicle = area_cicle.split("π")[0]
-    volume = area_cicle * height
-    return f"Volume is {volume}"
+def _volume_of_cylinder(radius: float, height: float) -> str:
+    area_circle = _area_of_circle(radius)
+    volume = area_circle * height
+    return f"Volume is {volume}π"
 
-
+  
